@@ -1,0 +1,26 @@
+<form>
+  <div class="form-group">
+    <label for="title">Title:</label>
+    <input
+      type="text"
+      name="title"
+      id="title"
+      placeholder="Insert a title for the moment"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="description">Description:</label>
+    <textarea
+      name="description"
+      id="description"
+      placeholder="Describe your best moment"
+      required
+    ></textarea>
+  </div>
+  <div class="form-group">
+    <label for="image">Image:</label>
+    <input type="file" name="image" id="image" required />
+  </div>
+  <input type="submit" value="{{ btnText }}" />
+</form>

@@ -20,3 +20,45 @@ a {
 a:hover {
   color: #dec129;
 }
+
+form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.6em;
+  color: #777;
+  font-size: 0.8em;
+}
+
+input[type="submit"] {
+  background-color: #fff;
+  border: 3px solid #efefef;
+  color: #dec129;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  font-size: 1.25em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+input[type="submit"]:hover {
+  background-color: #550101;
+  border-color: #dec129;
+  color: #dec129;
+}
