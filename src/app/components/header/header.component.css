@@ -1,5 +1,47 @@
 .header {
-  background-color: black;
-  color: aliceblue;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3em;
+  border-bottom: 1px solid #777;
+  box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 50px;
+}
+
+.brand:hover > h2 {
+  color: #dec129;
+  transition: 400ms;
+}
+
+.links,
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.links {
+  list-style: none;
+  gap: 2em;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.links a {
+  padding: 0.2em 0.5em;
+}
+
+#add a {
+  color: #dec129;
+  border-radius: 8px;
+  border: 2px solid #efefef;
+}
+
+#add a:hover {
+  background-color: #550101;
+  box-shadow: 1px 1px 10px 5px rgba(5, 1, 1, 0.2);
+  border-color: #dec129;
 }
